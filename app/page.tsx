@@ -10,7 +10,7 @@ export default function Home() {
   ]
   const prompt = "I want you to act as a "
   const [selectValue, setSelectValue] = useState("coder");
-  const onChange = (event) => {
+  const onChange = (event: any) => {
     const value = event.target.value;
     setSelectValue(value);
   };
